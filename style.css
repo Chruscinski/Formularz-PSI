@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     margin: 0;
     padding: 3vw;
 }
@@ -22,7 +22,7 @@ header h1 {
     line-height: 1.1em;
 }
 header p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 2.5em;
     font-style: italic;
     margin: 0 0 5vw 0;
@@ -35,7 +35,7 @@ h2 {
 }
 
 .element {
-	box-sizing: border-box;
+    box-sizing: border-box;
     border: 3px solid white;
     border-left: 15px solid white;
     padding: 1vw 2vw 1vw 1vw;
@@ -46,27 +46,27 @@ h2 {
 }
 
 #form {
-	box-sizing: border-box;
-	background-color: white;
-	color: black;
-	padding: 1vw 2vw;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    padding: 1vw 2vw;
     width: 70vw;
     margin: 2vw auto;
 }
 
 fieldset {
-	margin: 1vw 2vw;
-	padding: 1vw 2vw;
-	border: solid 3px black;
+    margin: 1vw 2vw;
+    padding: 1vw 2vw;
+    border: solid 3px black;
 }
 
 legend {
-	width: 40vw;
-	font-size: 2em;
-	text-decoration: underline;
-	background-color: black;
-	color: white;
-	padding: 0.4em 3.5em;
+    width: 40vw;
+    font-size: 2em;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    padding: 0.4em 3.5em;
 }
 
 label {
@@ -77,51 +77,50 @@ input {
     height: 1rem;
 }
 
-.df {    
+.df {
     font-size: 1.5rem;
-    height:auto;
+    height: auto;
 }
 
 fieldset p {
-	text-align: left;
+    text-align: left;
     margin-left: 7vw;
 }
 
 .bord {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     border: solid 2px black;
 }
 
-input[type="checkbox"]  {
+input[type="checkbox"] {
     transform: scale(1.5);
 }
-input[type="radio"]  {
+input[type="radio"] {
     transform: scale(1.5);
 }
 textarea {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.5rem;
 }
 
 select {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 1.5rem;
     border: solid 2px black;
     width: 300px;
     margin-bottom: 5vw;
-    
 }
 
 button {
     box-sizing: border-box;
-	display: block;
-	background-color: black;
+    display: block;
+    background-color: black;
     color: white;
-	font-size: 4em;
+    font-size: 4em;
     width: 62vw;
-	margin: 2.5vw auto 1vw auto;
-	padding: 1vw 2vw;
-	border: none;
+    margin: 2.5vw auto 1vw auto;
+    padding: 1vw 2vw;
+    border: none;
     height: 8vw;
     font-weight: 900;
     text-decoration: underline;
@@ -129,7 +128,6 @@ button {
 }
 
 button:hover {
-    
     height: 8vw;
     background-color: white;
     color: black;
@@ -137,6 +135,6 @@ button:hover {
 }
 
 #bre {
-	margin: 3vw 2vw 1vw 2vw;
+    margin: 3vw 2vw 1vw 2vw;
     border-top: 5px dashed black;
 }
