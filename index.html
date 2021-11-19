@@ -4,136 +4,196 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jan Chruściński">
+        <meta name="description" content="Kreator komputera stacjonarnego.">
         <title>Kreator komputera stacjonarnego - zbuduj swój wymarzony komputer!</title>
         <link href="style.css" rel="stylesheet">
+        <link rel="icon" href="icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&family=Source+Sans+Pro:wght@400;900&display=swap" rel="stylesheet">
-
     </head>
 
     <body>
         <header class="section">
             <section id="header">
-                <h1>Kreator komputera stacjonarnego</h1>
+                <a href="index.html"><h1>Kreator komputera stacjonarnego</h1></a>
                 <p>Zbuduj swój wymarzony komputer już teraz!</p>
             </section> 
         </header>
         <section class="section">
-            <div id="list">
-                <h2>Jak to działa?</h2>
-                <div class="element">1.&ensp;&ensp;Wypełni poniższy formularz według swoich preferencji.</div>
-                <div class="element">2.&ensp;&ensp;Zatwierdź i wpisz swoje dane kontaktowe w kolejnym formularzu.</div>
-                <div class="element">3.&ensp;&ensp;My, po jego otrzymaniu dobierzemy odpowiednie podzespoły i wycenimy twój spersonalizowany komputer.</div>
-                <div class="element">4.&ensp;&ensp;Gdy otrzymasz od nas odpowiedź, potwierdź zamówienie lub wprowadź zmiany.</div>
-                <div class="element">5.&ensp;&ensp;Twój komputer będzie dostępny następnego dnia roboczego.</div>
-            </div>
+            <h2>Jak to działa?</h2>
+            <div class="element">1.&ensp;&ensp;Wypełni poniższy formularz według swoich preferencji.</div>
+            <div class="element">2.&ensp;&ensp;Zatwierdz przyciskiem "Wyślij formularz".</div>
+            <div class="element">3.&ensp;&ensp;My, po jego otrzymaniu dobierzemy odpowiednie podzespoły i wycenimy twój spersonalizowany komputer.</div>
+            <div class="element">4.&ensp;&ensp;Gdy otrzymasz od nas odpowiedź, potwierdź zamówienie lub wprowadź zmiany.</div>
+            <div class="element">5.&ensp;&ensp;Twój komputer będzie dostępny następnego dnia roboczego.</div>
         </section>
         <main>
-            <section id="formsec">
-                <form action="">
-                    <h2>Formularz</h2>
-                    field
-                        <legend>Przeznaczenie</legend>
-                        <input type="checkbox" name="przeznaczenie" id="gry">
-                        <label for="gry">Gry komputerowe</label>
-                        <input type="checkbox" name="przeznaczenie" id="biuro">
-                        <label for="biuro">Praca biurowa</label>
-                        <input type="checkbox" name="przeznaczenie" id="grafika">
-                        <label for="grafika">Grafika komputerowa</label>
-                        <input type="checkbox" name="przeznaczenie" id="internet">
-                        <label for="internet">Przeglądanie internetu</label>
-                        <input type="checkbox" name="przeznaczenie" id="biznes">
-                        <label for="biznes">Spotkania biznesowe</label>
-                    </div>
-                    <div>
-                        <legend>Ile pieniędzy chcesz przeznaczyć?</legend>
-                    
-                        <input type="number" name="budzet" placeholder="Wpisz kwote">
-                    </div>
-                    <div>
-                        <label>Jaki chcesz procesor?</label>
-                        <select name="porcesor" required>
-                        <option value="">Wybierz opcje</option>
-                        <option value="intel">Intel</option>
-                        <option value="amd">AMD</option>
-                        <option value="nw">Nie wiem</option>
-                        </select>
-                    </div>
-                    <div>
-                        <legend>Ilość pamięci RAM</legend>
-                        <div class="ram">
-                        <input type="radio" name="ram" value="4">
-                        <label>4GB</label>
-                        </div>
-                        <div class="ram">
-                        <input type="radio" name="ram" value="8">
-                        <label>8GB</label>
-                        </div>
-                        <div class="ram">
-                        <input type="radio" name="ram" value="16">
-                        <label>16GB</label>
-                        </div>
-                        <div class="ram">
-                        <input type="radio" name="ram" value="inne">
-                        <label>Inna</label>
-                        </div>
-                    </div>
-                        <div>
-                        <legend>Jaką pojemność dysku SSD potrzebujesz?</legend>
-                        <div class="dysk">
-                            <input type="radio" name="dysk" value="128">
-                            <label>128GB</label>
-                        </div>
-                        <div class="dysk">
-                            <input type="radio" name="dysk" value="128">
-                            <label>256GB</label>
-                        </div>
-                        <div class="dysk">
-                            <input type="radio" name="dysk" value="128">
-                            <label>512GB</label>
-                        </div>
-                        <div class="dysk">
-                            <input type="radio" name="dysk" value="128">
-                            <label>1TB</label>
-                        </div>
-                        <div class="dysk">
-                            <input type="radio" name="dysk" value="128">
-                            <label>Inna</label>
-                        </div>
-                        </div>
-                        <div>
-                        <label>Jaki chcesz rodzaj karty graficznej?</label>
-                        <select name="karta" required>
-                            <option value="">Wybierz opcje</option>
-                            <option value="nvidia">NVIDIA GeForce</option>
-                            <option value="amd">AMD Radeon</option>
-                            <option value="nw">Nie wiem</option>
-                        </select>
-                        </div>
-                        <div>
-                        <legend>Jaką obudowe wybierasz?</legend>
-                        <input type= "checkbox" name="obudowa" id="standard" value="standard">
-                        <label for="standard">Standardowa</label>
-                        <input type= "checkbox" name="obudowa" id="okno" value="okno">
-                        <label for="okno">Z oknem</label>
-                        <input type= "checkbox" name="obudowa" id="podswietlenie" value="podswietlenie">
-                        <label for="podswietlenie">Z podświetleniem</label>
-                        <input type= "checkbox" name="obudowa" id="wentylatory" value="wentylatory">
-                        <label for="wentylatory">Dodatkowe wentylatory</label>
-                    </div>
-                    <div>
-                        <legend>Czy potrzebujesz napędu optycznego?</legend>
-                        <input type="radio" name="naped" value="tak" id="tak">
-                        <label for="tak">Tak</label>
-                        <input type="radio" name="naped" value="nie" id="nie">
-                        <label for="nie">Nie</label>
-                    </div>
-                    <div>
-                        <textarea id="uwagi" name="uwagi">
-                        
-                        </textarea>
-                    </div>
+            <section class="section">
+				<h2>Formularz</h2>
+            	<form id="form" action="index.html#">
+                  	<fieldset>
+						<legend>1. Do czego głównie będziesz wykorzystywać komputer?</legend>
+                            <p>
+                                <input type="checkbox" name="przeznaczenie" id="gry">
+                                <label for="gry">Gry komputerowe</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="przeznaczenie" id="grafika">
+                                <label for="grafika">Grafika komputerowa</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="przeznaczenie" id="filmy">
+                                <label for="filmy">Oglądanie filmów</label>
+                            </p>
+                            <p>							
+                                <input type="checkbox" name="przeznaczenie" id="biznes">
+                                <label for="biznes">Spotkania biznesowe</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="przeznaczenie" id="biuro">
+                                <label for="biuro">Praca biurowa</label>
+                            </p>
+                            <p>							
+                                <input type="checkbox" name="przeznaczenie" id="internet">
+                                <label for="internet">Przeglądanie internetu</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" name="przeznaczenie" id="inne">
+                                <label for="inne">Inne</label>
+                            </p>
+					</fieldset>
+                 	<fieldset>
+						<legend>2. Jaki masz budżet na komputer?</legend>
+                        <p>
+                            <input class="df bord" type="number" name="budzet" placeholder="Wpisz kwote" min="0" required>
+                        </p>
+						
+					</fieldset>
+					<fieldset>
+						<legend>3. Wybierz marke procesora:</legend>
+                        <p>
+                            <select class="df" name="porcesor" required>
+                                <option value="">Wybierz opcje</option>
+                                <option value="intel">Intel</option>
+                                <option value="amd">AMD</option>
+                                <option value="nw">Nie wiem</option>
+						    </select>
+                        </p>
+						
+					</fieldset>
+                	<fieldset>
+						<legend>4. Wybierz ilość pamięci RAM:</legend>
+                    	<p>
+                      		<input type="radio" name="ram" value="4" id="4">
+                      		<label for="4">4GB</label>
+                    	</p>
+                    	<p>
+                    		<input type="radio" name="ram" value="8" id="8">
+							<label for="8">8GB</label>
+                    	</p>
+                    	<p>
+							<input type="radio" name="ram" value="16" id="16">
+							<label for="16">16GB</label>
+                    	</p>
+                    	<p>
+                      		<input type="radio" name="ram" value="inne" id="inna">
+                      		<label for="inna">Inna</label>
+                    	</p>
+                        <p>
+                            <input type="radio" name="ram" value="nw" id="nw2">
+                            <label for="nw2">Nie wiem</label>
+                        </p>
+					</fieldset>
+                 	<fieldset>
+						<legend>5. Jaką pojemność dysku SSD potrzebujesz?</legend>
+						<p>
+							<input type="radio" name="dysk" value="128" id="128">
+							<label for="128">128GB</label>
+						</p>
+						<p>
+							<input type="radio" name="dysk" value="256" id="256">
+							<label for="256">256GB</label>
+						</p>
+						<p>
+							<input type="radio" name="dysk" value="512" id="512">
+							<label for="512">512GB</label>
+						</p>
+						<p>
+							<input type="radio" name="dysk" value="1tb" id="1tb">
+							<label for="1tb">1TB</label>
+						</p>
+                        <p>
+							<input type="radio" name="dysk" value="inna" id="inna2">
+							<label for="inna2">Inna</label>
+						</p>
+						<p>
+							<input type="radio" name="dysk" value="nw" id="nw3">
+							<label for="nw3">Nie wiem</label>
+						</p>
+					</fieldset>
+                    <fieldset>
+						<legend>6. Jaki chcesz rodzaj karty graficznej?</legend>
+                        <p>
+                            <select class="df" name="karta" required>
+                                <option value="">Wybierz opcje</option>
+                                <option value="nvidia">NVIDIA GeForce</option>
+                                <option value="amd">AMD Radeon</option>
+                                <option value="nw">Nie wiem</option>
+                            </select>
+                        </p>
+					</fieldset>
+                	<fieldset>
+						<legend>7. Jaką obudowe wybierasz?</legend>
+                        <p>
+                            <input type= "checkbox" name="obudowa" id="standard" value="standard" checked>
+                            <label for="standard">Standardowa</label>
+                        </p>
+                        <p>
+                            <input type= "checkbox" name="obudowa" id="okno" value="okno">
+                            <label for="okno">Z oknem</label>
+                        </p>
+                        <p>
+                            <input type= "checkbox" name="obudowa" id="podswietlenie" value="podswietlenie">
+                            <label for="podswietlenie">Z podświetleniem</label>
+                        </p>
+                        <p>
+                            <input type= "checkbox" name="obudowa" id="wentylatory" value="wentylatory">
+                            <label for="wentylatory">Dodatkowe wentylatory</label>
+                        </p>
+					</fieldset>
+              		<fieldset>
+						<legend>8. Czy potrzebujesz napędu optycznego?</legend>
+                        <p>
+                            <input type="radio" name="naped" value="tak" id="tak">
+                            <label for="tak">Tak</label>
+                        </p>
+						<p>
+                            <input type="radio" name="naped" value="nie" id="nie" checked>
+                            <label for="nie">Nie</label>
+                        </p>
+					</fieldset>
+                    <fieldset>
+                        <legend>9. Masz jakieś uwagi?</legend>
+                        <p>
+					        <textarea id="uwagi" class="bord" name="uwagi" rows="2" cols="40" placeholder="Wpisz swoje uwagi..."></textarea>
+                        </p>
+					</fieldset>
+                    <div id="bre"></div>
+                    <fieldset>
+                        <legend>10. Wpisz swoje imię:</legend>
+                        <p>
+                            <input class="df bord" type="text" id="imie" name="imie" placeholder="Wpisz swoje imię..." size="15" required>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>11. Podaj swojego maila:</legend>
+                        <p>
+                            <input class="df bord" type="mail" id="imie" name="imie" placeholder="Wpisz swojego maila..." size="30" required>
+                        </p>
+                    </fieldset>
+            <button type="submit">Wyślij formularz</button>
                 </form>
             </section>
         </main>

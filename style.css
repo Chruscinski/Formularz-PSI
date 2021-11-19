@@ -12,8 +12,8 @@ body {
     padding: 3vw;
 }
 
-
 header h1 {
+    color: white;
     font-size: 9em;
     font-weight: 900;
     text-decoration: underline;
@@ -28,25 +28,115 @@ header p {
     margin: 0 0 5vw 0;
 }
 
-#list {
-    width: 70vw;
-    margin: 0 auto;
-}
-
-#list h2 {
+h2 {
     font-size: 4em;
     margin: 0 0 2vw 0;
     text-decoration: underline;
-    
 }
 
 .element {
+	box-sizing: border-box;
     border: 3px solid white;
     border-left: 15px solid white;
     padding: 1vw 2vw 1vw 1vw;
-    width: 60vw;
-    margin: 2vw auto;
+    width: 70vw;
+    margin: 1vw auto;
     text-align: left;
     font-size: 1.5em;
 }
 
+#form {
+	box-sizing: border-box;
+	background-color: white;
+	color: black;
+	padding: 1vw 2vw;
+    width: 70vw;
+    margin: 2vw auto;
+}
+
+fieldset {
+	margin: 1vw 2vw;
+	padding: 1vw 2vw;
+	border: solid 3px black;
+}
+
+legend {
+	width: 40vw;
+	font-size: 2em;
+	text-decoration: underline;
+	background-color: black;
+	color: white;
+	padding: 0.4em 3.5em;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input {
+    height: 1rem;
+}
+
+.df {    
+    font-size: 1.5rem;
+    height:auto;
+}
+
+fieldset p {
+	text-align: left;
+    margin-left: 7vw;
+}
+
+.bord {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: solid 2px black;
+}
+
+input[type="checkbox"]  {
+    transform: scale(1.5);
+}
+input[type="radio"]  {
+    transform: scale(1.5);
+}
+textarea {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+}
+
+select {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    border: solid 2px black;
+    width: 300px;
+    margin-bottom: 5vw;
+    
+}
+
+button {
+    box-sizing: border-box;
+	display: block;
+	background-color: black;
+    color: white;
+	font-size: 4em;
+    width: 62vw;
+	margin: 2.5vw auto 1vw auto;
+	padding: 1vw 2vw;
+	border: none;
+    height: 8vw;
+    font-weight: 900;
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+
+button:hover {
+    
+    height: 8vw;
+    background-color: white;
+    color: black;
+    border: 10px solid black;
+}
+
+#bre {
+	margin: 3vw 2vw 1vw 2vw;
+    border-top: 5px dashed black;
+}
